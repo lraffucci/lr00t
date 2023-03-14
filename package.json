@@ -10,7 +10,7 @@
     "url": "https://github.com/lraffucci/lr00t.git"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "start": "node app.js",

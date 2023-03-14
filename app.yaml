@@ -1,5 +1,5 @@
 
 
 # [START yaml]
-runtime: nodejs10
+runtime: nodejs18
 # [END yaml]
