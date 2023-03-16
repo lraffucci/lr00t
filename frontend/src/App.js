@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-<div>YEE HAW! Welcome to Texas!</div>
+<div>YEE HAW! Welcome to Texas! take 2</div>
   );
 }
 

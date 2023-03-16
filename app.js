@@ -9,10 +9,10 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'frontend', 'build')));
 
-app.get('/', (req, res) => {
-  res.json({ message: "Hello from server using nodeJS 18" });
+/* app.get('/', (req, res) => {
+  res.json({ message: "take2" });
 });
-
+ */
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
