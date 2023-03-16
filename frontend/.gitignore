@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+#/build //i had to comment this out becuase GCP wants GIT to be the code repo and does not want to build post deployment... for now. this is probably a step i need to look at.
 
 # misc
 .DS_Store
