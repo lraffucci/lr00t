@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import './components/layout/index.js'
+import Layout from './components/layout/index.js';
+
 
 function App() {
+
+  const title = 'LR/00/T'
   return (
-<div>YEE HAW! Welcome to Texas! take 2</div>
+    <Layout></Layout>
   );
 }
 
