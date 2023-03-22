@@ -1,13 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Header from '../header';
 
 function Layout() {
-
-  const title = 'LR/00/T';
   return (
     <Container className="p-3">
         <Row>
-            <h1>{title}</h1>
+            <Header></Header>
         </Row>
         <Row>      
             <div>
@@ -16,7 +15,7 @@ function Layout() {
             </div>
         </Row>
         <Row>
-            <div>BODY</div>
+        
         </Row>
     </Container>
   );
