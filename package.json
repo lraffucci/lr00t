@@ -16,7 +16,8 @@
     "start": "node app.js",
     "test": "mocha --exit test/*.test.js",
     "prodBuild": "dir && cd frontend && npm run build && cd .. && node app.js",
-    "dev": "dir && cd frontend && npm run start && cd .. && node app.js"
+    "dev": "dir && cd frontend && npm run start && cd .. && node --inspect app.js",
+    "debugServer": "dir && cd frontend && npm run build && cd .. && nodemon --inspect app.js"
   },
   "dependencies": {
     "express": "^4.16.3",
