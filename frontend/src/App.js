@@ -1,11 +1,13 @@
 import './App.css';
-import Layout from './components/layout/index.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function App() {
+import Layout from './components/layout/components.layout';
+
+const App = () => {
   return (
-
-      <Layout></Layout>
+      <Layout className='layout'></Layout>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,34 @@
+.layoutContainer {  
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-rows: 1fr 5fr 0.9fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "HEADER HEADER"
+      "ASIDE MAIN"
+      "FOOTER FOOTER";
+      width: 100vw;
+      min-height: 100vh;
+      height: 100vh;  
+  }
+.headerContainer{
+  grid-area: HEADER;
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.asideContainer{
+grid-area: ASIDE;
+background-color: blue;
+}
+.contentContainer{
+  grid-area: MAIN;
+  background-color: green;
+}
+.footerContainer{
+  grid-area: FOOTER;
+  background-color: gray;
+}
