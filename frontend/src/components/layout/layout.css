@@ -6,7 +6,7 @@
     grid-auto-flow: row;
     grid-template-areas:
       "HEADER HEADER"
-      "ASIDE MAIN"
+      "MAIN MAIN"
       "FOOTER FOOTER";
       width: 100vw;
       min-height: 100vh;
@@ -14,19 +14,15 @@
   }
 .headerContainer{
   grid-area: HEADER;
-  background-color: red;
+  background-color: rgb(0, 0, 0);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.asideContainer{
-grid-area: ASIDE;
-background-color: blue;
-}
-.contentContainer{
+.mainContainer{
   grid-area: MAIN;
-  background-color: green;
+  background-color: red;
 }
 .footerContainer{
   grid-area: FOOTER;

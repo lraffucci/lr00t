@@ -3,14 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from '../header/components.header';
-import Home from '../home/components.home';
+import Main from '../main/components.main';
 
 const Layout = () => {
   return (
     <div className='layoutContainer'>
       <header className='headerContainer'><Header /></header>
-      <aside className='asideContainer'>Aside</aside>
-      <main className='contentContainer'><Home /></main>
+      <Main className='mainContainer'/>
       <footer className='footerContainer'>Footer</footer>
     </div>
   );

@@ -1,13 +1,13 @@
-import './home.css';
+import './blurb.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Home = () => {
+const Blurb = () => {
   return (
-    <div>
+    <div className='home-intro'>
         <span>I am Luis Raffucci, a web developer. This is my web space for ideas, testing, or whatever.</span>
     </div>
   );
 };
 
-export default Home;
+export default Blurb;
