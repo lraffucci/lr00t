@@ -7,7 +7,7 @@
   "author": "Luis Raffucci",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lraffucci/lr00t.git"
+    "url": "git+https://github.com/lraffucci/lr00t.git"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -22,10 +22,19 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "nodemon": "^2.0.21"
+    "nodemon": "^2.0.21",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "mocha": "^7.0.0",
     "supertest": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/lraffucci/lr00t/issues"
+  },
+  "homepage": "https://github.com/lraffucci/lr00t#readme",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
   }
 }
