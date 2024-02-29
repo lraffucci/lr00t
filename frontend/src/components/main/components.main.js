@@ -7,8 +7,8 @@ import Blurb from '../blurb/components.blurb';
 const Main = () => {
   return (
     <div className='main-component-layout'>
-   {/*    <Aside />
-      <Blurb /> */}
+      <Aside />
+      <Blurb />  
     </div>
   );
 };

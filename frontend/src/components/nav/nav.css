@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&display=swap');
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+  }
+.header-logo{
+  width: 50vw;
+  font-size: 20vh;
+}
+.header-links{
+  width: 50vw;
+  font-size: 2vw;
+}
+.header-links span{
+  margin-right: 3vw;
+}

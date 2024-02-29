@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.06a9d06b.css",
-    "main.js": "/static/js/main.fc9d7ca9.js",
+    "main.css": "/static/css/main.00bbc620.css",
+    "main.js": "/static/js/main.c8ca4e98.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/cyberpunkAphrodite.png": "/static/media/cyberpunkAphrodite.73d6e150d409c8686b90.png",
     "index.html": "/index.html",
-    "main.06a9d06b.css.map": "/static/css/main.06a9d06b.css.map",
-    "main.fc9d7ca9.js.map": "/static/js/main.fc9d7ca9.js.map",
+    "main.00bbc620.css.map": "/static/css/main.00bbc620.css.map",
+    "main.c8ca4e98.js.map": "/static/js/main.c8ca4e98.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06a9d06b.css",
-    "static/js/main.fc9d7ca9.js"
+    "static/css/main.00bbc620.css",
+    "static/js/main.c8ca4e98.js"
   ]
 }

@@ -16,6 +16,7 @@ const Header = () => {
           <span>Experiments</span>
           <span>Contact</span>
           <span>Resume</span>
+          <span>TEST</span>
         </div>
     </div>
   );

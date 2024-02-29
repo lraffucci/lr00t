@@ -15,10 +15,11 @@
   "scripts": {
     "start": "node app.js",
     "test": "mocha --exit test/*.test.js",
-    "prodBuild": "dir && cd frontend && npm run build && cd .. && node app.js",
-    "dev": "npm run devBuildFrontend && dir && cd frontend && npm run start && cd .. && nodemon --inspect app.js",
-    "devBuildFrontend": "dir && cd frontend && npm run start",
-    "debugServer": "dir && cd frontend && npm run build && cd .. && nodemon --inspect app.js"
+    "prodBuild": "ls && cd frontend && npm run build && cd .. && node app.js",
+    "dev": "npm run devBuildFrontend && ls && cd frontend && npm run start && cd .. && nodemon --inspect app.js",
+    "devBuildFrontend": "ls && cd frontend && npm run start",
+    "debugServer": "ls && cd frontend && npm run build && cd .. && nodemon --inspect app.js",
+    "devFE": "ls && cd frontend && npm run start"
   },
   "dependencies": {
     "express": "^4.16.3",
